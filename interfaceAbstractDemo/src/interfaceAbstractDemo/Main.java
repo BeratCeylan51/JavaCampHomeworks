@@ -13,7 +13,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager.save(new Customer(1, "Berat", "Ceylan", LocalDate.of(2001,10,26), "20456580932"));
+		customerManager.save(new Customer(1, "Berat", "Ceylan", LocalDate.of(2001,10,26), "12345678910"));
 
 	}
 
